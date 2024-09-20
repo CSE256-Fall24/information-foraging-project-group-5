@@ -1,3 +1,29 @@
 @import url("common.css");
 @import url("side_menu.css");
 @import url("staff_entry.css");
+#enrichment-title { 
+    font-weight: 700; 
+}
+.enrichment-subject { 
+    background-color:#eee;
+    padding: 30px; 
+    margin-bottom: 30px; 
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.enrichment-subject h3 { 
+    font-weight: 700; 
+    margin-bottom: 20px; 
+}
+
+.left-column { 
+    display:block; 
+    width: 45%;
+}
+
+.right-column { 
+    display:block; 
+    width: 45%;
+    padding: 1.5em;
+}
