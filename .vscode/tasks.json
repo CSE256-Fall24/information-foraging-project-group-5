@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "Live Preview",
+			"workspacePath": "/Users/campbelloh/Desktop/Human Centered Design/information-foraging-project-group-5",
+			"problemMatcher": [],
+			"label": "Live Preview: Run Server"
+		}
+	]
+}
