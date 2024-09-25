@@ -24,6 +24,11 @@
     padding: 8px 20px;
 }
 
+a.action_button {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
 .action_button:hover {
     background-color: white;
     color: #a51417;
