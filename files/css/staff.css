@@ -1,3 +1,13 @@
 @import url("common.css");
 @import url("staff_entry.css");
 @import url("side_menu.css");
+
+#staff-header, .staff-subheader { 
+    font-weight: 700; 
+}
+
+.individual-staff-member { 
+        background-color:#eee;
+        padding: 30px; 
+        margin-bottom: 30px; 
+}
