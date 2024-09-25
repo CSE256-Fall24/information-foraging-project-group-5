@@ -1,2 +1,29 @@
 @import url("common.css");
 @import url("side_menu.css");
+
+/* #columns { 
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.left-column { 
+    display:block; 
+    width: 45%;
+}
+
+.right-column { 
+    display:block; 
+    width: 45%;
+} */
+
+#about-title, #hours-title { 
+    font-weight: 700; 
+}
+
+.page-content { 
+    margin-bottom: 60px; 
+}
+
+.about-subheader { 
+    font-weight: 700; 
+}
