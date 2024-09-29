@@ -1,4 +1,6 @@
 @import url("common.css");
+@import url("side_menu.css");
+
 .image-container {
     background-image: url("https://nurseryschool.wustl.edu/files/2015/03/group-holi.jpg");
 }

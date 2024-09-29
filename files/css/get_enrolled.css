@@ -3,17 +3,19 @@
 
 #enrollment_steps {
     display: flex;
+    flex-wrap: wrap; 
     justify-content: space-evenly;
     align-items: flex-start;
-    gap: 100px;
+    gap: 50px;
     border: 2px #a51417 solid;
     padding: 40px;
     border-radius: 20px;
 }
 
 .action_column {
+    flex: 1 1 calc(50% - 100px);
     text-align: center;
-    flex: 1;
+    margin: 10px;
 }
 
 .bi {
