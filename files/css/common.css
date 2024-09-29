@@ -97,3 +97,28 @@ main h4 a {
     background-color: #a51417;
     text-align: center;
 }
+
+
+.action_button {
+    background-color: #a51417;
+    color: white;
+    border: #a51417;
+    text-decoration: none;
+    border-width: 2px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size: 1rem;
+    line-height: 1.1;
+    padding: 8px 20px;
+    margin: 5px;
+}
+
+a.action_button {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.action_button:hover {
+    background-color: white;
+    color: #a51417;
+}

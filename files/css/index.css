@@ -25,7 +25,7 @@
     margin-bottom: 2em;
     font-size: 1.25em;
 }
-
+/*
 #visit-our-school a {
     color: #a51417;
     border: #a51417;
@@ -36,6 +36,7 @@
     line-height: 1.1;
     padding: 8px 20px;
 }
+*/
 
 #column-view {
     display: flex;
