@@ -8,6 +8,18 @@ header {
     overflow: hidden;
     padding-left: 4%;
     padding-top: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#name {
+    color: white;
+    padding-right: 58px;
+}
+
+#name h2 {
+    font-weight: 400;
 }
 
 #main-menu-container {

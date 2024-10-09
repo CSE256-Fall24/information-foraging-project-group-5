@@ -1,4 +1,5 @@
 @import url("common.css");
+@import url("side_menu.css");
 .image-container {
     background-image: url("https://nurseryschool.wustl.edu/files/2015/03/group-holi.jpg");
 }
@@ -13,10 +14,32 @@ main li {
     display: list-item;
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 19.2px;
-    height: 54.6667px;
-    line-height: 27.84px;
+    line-height: normal;
     list-style-image: none;
     list-style-position: outside;
     list-style-type: disc;
     margin-bottom: 15px;
+}
+
+main a{
+    border: 2px solid #a51417;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+main a:hover{
+    background-color:#a51417;
+    color: #eee;
+}
+
+#enrollment h3, #enrollment p {
+    margin-left: 30px;
+}
+
+#newstudents h3, #newstudents p {
+    margin-left: 30px;
 }
