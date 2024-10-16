@@ -1,5 +1,9 @@
 header {
-    overflow: auto;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 43px;
+    z-index: 1000;
+    background-color: inherit; /* Ensure the background color is consistent */
 }
 
 #wustl-branding {
