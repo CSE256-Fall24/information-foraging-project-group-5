@@ -1,9 +1,13 @@
 header {
-    position: -webkit-sticky; /* For Safari */
+    overflow: visible;
+}
+
+#menu_header {
+    position: -webkit-sticky;
     position: sticky;
     top: 43px;
-    z-index: 1000;
-    background-color: inherit; /* Ensure the background color is consistent */
+    z-index: 800;
+    background-color: inherit;
 }
 
 #wustl-branding {
@@ -163,4 +167,7 @@ header a {
 
 .dropdown:hover .dropdown-content {
     display: block;
+    z-index: 1000;
+    position: absolute;
+    top: 43px;
 }
