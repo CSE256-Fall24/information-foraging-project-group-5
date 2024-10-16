@@ -13,7 +13,7 @@
 }
 
 .action_column {
-    flex: 1 1 calc(50% - 100px);
+    flex: 1 1 calc(33.33% - 100px);
     text-align: center;
     margin: 10px;
 }
