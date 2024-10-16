@@ -1,0 +1,42 @@
+@import url("common.css");
+@import url("side_menu.css");
+
+html {
+    scroll-behavior: smooth;
+}
+
+.download{
+    border: 2px solid #a51417;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.download:hover{
+    background-color:#a51417;
+    color: #eee;
+}
+
+p{
+    line-height: normal;
+}
+
+ul {
+    padding-top: 10px;
+    margin-left: 1.5em;
+    margin-bottom: 35px;
+}
+
+li {
+    color: rgb(85, 85, 85);
+    display: list-item;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 19.2px;
+    line-height: normal;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: disc;
+    margin-bottom: 15px;
+}
