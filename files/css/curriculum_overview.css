@@ -1,7 +1,21 @@
 @import url("common.css");
 @import url("side_menu.css");
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.widget-area{
+    position: sticky;
+    top: 200px;
+}
+
+
+
 main ul {
     margin-top: 1em;
+    margin-left: 1.25em;
 }
 
 main li {
@@ -9,18 +23,15 @@ main li {
     margin-bottom: 1em;
 }
 
-.classroom {
-    margin-top: 6em;
-    margin-bottom: 1em;
-    clear: both;
-    overflow: hidden;
+main h2{
+    font-weight: bold;
+    font-size: 2.15em;
+    padding-bottom: 15px;
 }
 
-.classroom img {
-    float: left;
-    margin-right: 2.5em;
-}
-
-.classroom p {
-    font-size: 1.15em;
+main h3{
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 150%;
+    color: #a51417;
 }
