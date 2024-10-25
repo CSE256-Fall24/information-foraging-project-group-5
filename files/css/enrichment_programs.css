@@ -1,9 +1,24 @@
 @import url("common.css");
 @import url("side_menu.css");
 @import url("staff_entry.css");
-#enrichment-title { 
-    font-weight: 700; 
+
+
+html {
+    scroll-behavior: smooth;
 }
+
+.widget-area{
+    position: sticky;
+    top: 200px;
+}
+
+main h2{
+    font-weight: bold;
+    font-size: 2.15em;
+    padding-bottom: 15px;
+    color: #a51417;
+}
+
 .enrichment-subject { 
     background-color:#eee;
     padding: 30px; 
@@ -19,11 +34,11 @@
 
 .left-column { 
     display:block; 
-    width: 45%;
+    width: 35%;
 }
 
 .right-column { 
     display:block; 
-    width: 45%;
+    width: 55%;
     padding: 1.5em;
 }
