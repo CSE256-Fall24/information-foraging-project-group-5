@@ -7,15 +7,34 @@
     justify-content: space-evenly;
     align-items: flex-start;
     gap: 50px;
+    row-gap: 20px;
     border: 2px #a51417 solid;
     padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-radius: 20px;
 }
 
 .action_column {
-    flex: 1 1 calc(33.33% - 100px);
+    flex: 1 1 calc(50% - 100px);
     text-align: center;
     margin: 10px;
+}
+
+.enrollment_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.enrollment_content {
+    text-align: left;
+}
+
+.enrollment_title_text {
+    text-align: left;
 }
 
 .bi {
